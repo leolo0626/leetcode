@@ -1,0 +1,18 @@
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        dict1 = {}
+        result = []
+        for string in strs:
+            sorted_string = "-".join(sorted(string))
+            if sorted_string in dict1 :
+                dict1[sorted_string].append(string)
+            else:
+                dict1[sorted_string] = [string]
+        
+        
+        for str_key in dict1 : 
+            result.append(dict1[str_key])
+        
+        return result
+            
+            
