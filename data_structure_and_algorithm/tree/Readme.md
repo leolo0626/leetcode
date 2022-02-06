@@ -32,6 +32,16 @@ To be cautious , if the depth of tree is too large and recursive solution is use
 4. Breadth-First Search is an algorithm to traverse or search in data structure like a tree or a graph. The algorithm starts with a root node and visit the node first.
 Then traverse it neighbor, traverse its second leve neighbors , so on and so forth
 
+- Method Hits : #Queue
+
 - result for the above tree is [[8],[3,10],[1,6,14],[4,7,13]]
+
+<h2> Solve Problem Recursively </h2>
+
+1. Maximum Depth of Binary Tree
+
+- Method : Top Down method (Pre-order traversal)
+
+- result for the above tree is 4
 
 
